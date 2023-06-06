@@ -19,7 +19,7 @@ import json
 import logging
 import signal
 
-from sdv.utils.log import (  # type: ignore
+from sdv.util.log import (  # type: ignore
     get_opentelemetry_log_factory,
     get_opentelemetry_log_format,
 )
